@@ -46,6 +46,12 @@ html, body, #app{
         font-size: 13px;
         text-decoration: none;
         color: rgba(51, 51, 51, .54);
+        &:hover{
+          color:#f33;
+          &:after{
+            width:100%;
+          }
+        }
       }
     }
   }
