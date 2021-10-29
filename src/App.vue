@@ -3,9 +3,7 @@
     <div class="desc">
       <introduction></introduction>
       <skate-board></skate-board>
-      <div class="beian">
-        <a href="http://beian.miit.gov.cn" target="_blank">鄂ICP备2021014854号-1</a>
-      </div>
+      <beian></beian>
     </div>
   </div>
 </template>
@@ -36,24 +34,6 @@ html, body, #app{
   .desc{
     width: 80vw;
     margin: 0 auto;
-    .beian{
-      font-size: 13px;
-      position:absolute;
-      text-align:center;
-      bottom:0px;
-      width:80%;
-      a {
-        font-size: 13px;
-        text-decoration: none;
-        color: rgba(51, 51, 51, .54);
-        &:hover{
-          color:#f33;
-          &:after{
-            width:100%;
-          }
-        }
-      }
-    }
   }
 }
 
