@@ -1,15 +1,15 @@
-import Introduction from "./introduction";
-import SkateBoard from "./skate-board";
-import beian from "./beian";
+import Introduction from './introduction'
+import HeroVisual from './hero-visual'
+import Beian from './beian'
 
 const coms = {
-    Introduction,
-    SkateBoard,
-    beian,
-};
+  Introduction,
+  HeroVisual,
+  Beian,
+}
 
-export default function install(Vue) {
-    Object.keys(coms).forEach((name) => {
-        Vue.component(name, coms[name]);
-    });
+export default function install(app) {
+  Object.keys(coms).forEach((name) => {
+    app.component(name, coms[name])
+  })
 }

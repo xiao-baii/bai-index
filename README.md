@@ -1,30 +1,18 @@
-# bai-index
+# HexCraft
 
-​	目前开发环境下，备案号无法正常显示在底部。
+个人导航主页（Vue 3）
 
-​	生产环境下可以正常显示
+## 开发
 
-​    有冗余 px
-## Project setup
-
-```
+```bash
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
+## 生产构建
+
+```bash
 npm run build
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+将 `dist` 目录部署到 Web 服务器即可。
